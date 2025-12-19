@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Caculator\Caculator.csproj" />
+    <ProjectReference Include="..\Example03\Example03.csproj" />
+    <ProjectReference Include="..\Faculty\Faculty.csproj" />
+    <ProjectReference Include="..\Game_CatchEgg\Game_CatchEgg.csproj" />
+    <ProjectReference Include="..\My Caculator\MyCaculator.csproj" />
+    <ProjectReference Include="..\PictureBox\PictureBox.csproj" />
+    <ProjectReference Include="..\PictureBox_Move\PictureBox_Move.csproj" />
+    <ProjectReference Include="..\QLSV_2\QLSV_2.csproj" />
+    <ProjectReference Include="..\StringCollectionEditor\StringCollectionEditor.csproj" />
+    <ProjectReference Include="..\TimeArticle\TimeArticle.csproj" />
+    <ProjectReference Include="..\TinhTien\TinhTien.csproj" />
+  </ItemGroup>
+
+</Project>
