@@ -66,6 +66,6 @@ namespace Menu_BaiTap
             TinhTien.Form1 tt = new TinhTien.Form1();
             tt.ShowDialog();
         }
-        // Cap nhat menu daadda
+        // Cap nhat menu daaddass
     }
 }
